@@ -19,8 +19,7 @@ fuel_efficiency_env/
 # Data and model artifacts
 *.csv
 *.pkl
-model/
-data/
+
 
 # OS files
 .DS_Store
