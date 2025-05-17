@@ -17,7 +17,7 @@ fuel_efficiency_env/
 .vscode/
 
 # Data and model artifacts
-*.csv
+
 *.pkl
 
 
