@@ -73,16 +73,14 @@ source fuel_efficiency_env/bin/activate
 pip install -r requirements.txt
 ---
 
-### 🔹 Train and Predict
+Train and Predict
 
-```bash
 python model/train_model.py
 python predict_model.py
 ---
 
-### 🔹 Start FastAPI server
+Start FastAPI server
 
-bash
 cd api
 uvicorn main:app --reload
 ---
