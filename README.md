@@ -72,16 +72,26 @@ python3 -m venv fuel_efficiency_env
 source fuel_efficiency_env/bin/activate
 pip install -r requirements.txt
 
+### 🔹 Train and Predict
+
+```bash
 python model/train_model.py
 python predict_model.py
+
+### 🔹 Start FastAPI server
+
+```bash
 cd api
 uvicorn main:app --reload
 
 ### API 
+
+```bash
 API will run at: http://127.0.0.1:8000
 
 ### Sample json for /predict
 
+```bash
 {
   "range_km": 1,
   "mass_kg": 1450,
