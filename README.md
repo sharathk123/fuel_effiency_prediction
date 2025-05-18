@@ -76,3 +76,24 @@ python model/train_model.py
 python predict_model.py
 cd api
 uvicorn main:app --reload
+
+### API 
+API will run at: http://127.0.0.1:8000
+
+### Sample json for /predict
+
+{
+  "range_km": 1,
+  "mass_kg": 1450,
+  "co2_emission_tons": 0.125,
+  "co2_wltp_g_per_km": 135,
+  "engine_capacity_cc": 1400,
+  "engine_power_kw": 85,
+  "energy_consumption_whpkm": 180,
+  "co2_reduction_wltp_gpkm": 5,
+  "electric_range_km": 0,
+  "fuel_type": "petrol",
+  "fuel_mix": "M"
+}
+
+
